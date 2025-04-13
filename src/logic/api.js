@@ -1,6 +1,6 @@
 export const getData = async (city) => {
     const key = '4a65589337a1494aaa7154537251204';
-    const url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=${encodeURIComponent(city)}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${encodeURIComponent(city)}`;
 
     try {
         const response = await fetch(url);
