@@ -52,14 +52,14 @@ export default function BasicTable({ city }) {
     }, [city]);
 
     return (
-        <TableContainer component={Paper}>
+        <TableContainer className='w-full' component={Paper}>
             {
                 rows == 400 ? (<Alert severity="error">Invalid search.</Alert>)
-                    : (<div align="center">
-                        <h1 align="center"><img style={{ verticalAlign: "middle" }} src={info.icon} alt="icon" />{info.text}</h1>
-                        <Table className='cell' aria-label="simple table">
+                    : (<div className='w-full' align="center">
+                        <h1 className='flex items-center justify-center text-3xl'><img style={{ verticalAlign: "middle" }} src={info.icon} alt="icon" />{info.text}</h1>
+                        <Table className='rounded-xl w-full' aria-label="simple table">
                             <TableHead>
-                                <TableRow style={{ backgroundColor: "black" }}>
+                                <TableRow className='bg-black'>
                                     <TableCell style={{ fontWeight: 700, color: 'white' }}>{city}</TableCell>
                                     <TableCell style={{ fontWeight: 700, color: 'white' }}>{info.region}, {info.country}</TableCell>
                                 </TableRow>

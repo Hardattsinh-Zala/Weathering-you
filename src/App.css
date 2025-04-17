@@ -1,20 +1,6 @@
-/* .container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
+/* App.css */
 
-.cell {
-  width: 650px;
-  padding: 0.5rem;
-  font-size: 1rem;
-}
-
-@media (max-width: 700px) {
-  .cell {
-    width: 15rem !important;
-    font-size: 0.8rem !important;
-    padding: 0.3rem !important;
-  }
+.App {
+    text-align: center;
+    padding: 2rem;
 }

@@ -1,7 +1,5 @@
 import { useState } from "react"
 import FormPropsTextFields from "./FormPropsTextFields"
-import Table from "./Table"
-import { getData } from '../logic/api'
 import BasicTable from "./Table";
 import "../index.css";
 
@@ -14,7 +12,7 @@ export default function () {
     }
 
     return (
-        <div className="container">
+        <div className="w-70 flex flex-col items-center rounded-3xl sm:container sm:w-1/2">
             <FormPropsTextFields getValue={getValue} />
             <br />
             {city != "" && (
