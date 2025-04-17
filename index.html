@@ -4,11 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/Weathering-you/sun.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Weathering with you</title>
-    <script type="module" crossorigin src="/Weathering-you/assets/index-D4ihv-OT.js"></script>
-    <link rel="stylesheet" crossorigin href="/Weathering-you/assets/index-Bbx_6Gn9.css">
+    <script type="module" crossorigin src="/Weathering-you/assets/index-Cd2SRy9E.js"></script>
+    <link rel="stylesheet" crossorigin href="/Weathering-you/assets/index-CuTRvTKS.css">
   </head>
-  <body>
-    <div id="root"></div>
+  <body class="flex flex-col h-auto">
+    <div class="bg-black header w-full h-70 rounded-b-full mb-20">
+      <h1 class="w-full p-10 text-center text-3xl">Don't worry.<br>Here's your forecast!</h1>
+    </div>
+    <div class="w-full h-150 flex justify-center" id="root"></div>
+    <footer class="w-full h-auto bg-black pl-5 pt-5 pb-10">
+      <div class="text-lg" id="contact">
+          <p class="font-black">&copy;Wheather-app 2025 by Hardattsinh-Zala.</p><br>
+          <p>The data has been provided by <a class="hover:underline" href="https://www.weatherapi.com/" target="_blank">Weather API.</a></p><br>
+          <p class="font-black pb-3">Want to connect?</p>
+          <p>You can share me your thoughts and feedback on<br>Email : <a class="hover:underline" href="mailto:zalahardatt@gmail.com">zalahardatt@gmail.com</a> </p>
+          <p><i class="fa-brands fa-linkedin"></i> <a class="hover:underline" href="https://www.linkedin.com/in/hardattsinh-zala-b665ba277/" target="_blank">Linkedin</a></p>
+          <p><i class="fa-brands fa-github"></i> <a class="hover:underline" href="https://github.com/Hardattsinh-Zala" target="_blank">Github</a> </p>
+          <p><i class="fa-brands fa-x-twitter"></i> <a class="hover:underline" href="https://x.com/hardattsinhji" target="_blank">Twitter</a> </p>
+          <p>Thanks for visiting.</p>
+      </div>
+  </footer>
   </body>
 </html>
