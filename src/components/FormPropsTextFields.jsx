@@ -19,8 +19,8 @@ export default function FormPropsTextFields({getValue, enter}) {
       autoComplete="off">
       <TextField
         sx={{
-          input: {color: 'white'},
-          label: {color: 'white'}
+          input: {color: {sm: 'black', md: 'white'}},
+          label: {color: {sm: 'black', md: 'white'}}
         }}
         id="standard-search"
         label="Search field"
